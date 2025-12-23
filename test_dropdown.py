@@ -11,7 +11,7 @@ options.add_argument("--disable-dev-shm-usage")
 
 browser = webdriver.Chrome(options=options)
 browser.get("https://practice.expandtesting.com/dropdown")
-browser.maximize_window()
+# browser.maximize_window()
 
 choose = Select(browser.find_element(By.ID, "dropdown"))
 choose.select_by_visible_text("Option 1")
