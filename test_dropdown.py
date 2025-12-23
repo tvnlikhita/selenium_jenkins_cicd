@@ -13,4 +13,4 @@ choose.select_by_visible_text("Option 1")
 choose_country = Select(browser.find_element(By.ID, "country"))
 choose_country.select_by_visible_text("India")
 
-time.sleep(2)
+time.sleep(3)
